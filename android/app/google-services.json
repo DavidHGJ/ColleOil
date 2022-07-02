@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742701219757",
+    "project_id": "colleoil",
+    "storage_bucket": "colleoil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742701219757:android:3b9362433ac1d26c4aeb24",
+        "android_client_info": {
+          "package_name": "com.example.colleoil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742701219757-h5ronrn2e1aiv7q9u8tds3p70e46ac00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAujo9SDT2d4BEk6CHNPr16U-9u9ukvMnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742701219757-h5ronrn2e1aiv7q9u8tds3p70e46ac00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
