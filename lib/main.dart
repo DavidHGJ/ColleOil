@@ -15,16 +15,19 @@ Future<void> main() async {
   Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   )
-  .then((FirebaseApp firebaseApp) => {
-    runApp(const ColleoilApp(firstPage: Loading(),))
-  })
-  .catchError((error) => {
-    runApp(const ColleoilApp(firstPage: Error(),))
-  });
+      .then((FirebaseApp firebaseApp) => {
+            runApp(const ColleoilApp(
+              firstPage: Discovery(),
+            ))
+          })
+      .catchError((error) => {
+            runApp(const ColleoilApp(
+              firstPage: Error(),
+            ))
+          });
 }
 
 class ColleoilApp extends StatelessWidget {
-
   final Widget firstPage;
 
   const ColleoilApp({Key? key, required this.firstPage}) : super(key: key);
@@ -41,11 +44,10 @@ class ColleoilApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: primaryColor,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: primaryColor,
-        )
-      ),
+          primaryColor: primaryColor,
+          appBarTheme: const AppBarTheme(
+            backgroundColor: primaryColor,
+          )),
     );
   }
 }
